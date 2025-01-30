@@ -179,9 +179,9 @@ body {
 #superhero #zero img{
   justify-items: baseline;
   width: 35vw;
-  margin-top: 200px ;
+  margin-top: 300px ;
   position: relative;
-  right: 60px;
+  right: 80px;
 }
 #hero {
   width: 65vw;
@@ -240,8 +240,8 @@ body {
   text-align: center;
   padding: 25px 15px;
   box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
-  border: 1px solid #cce7d0;
-  border-radius: 4px;
+  border: 2px solid #088178;
+  border-radius: 6px;
   margin: 15px 0;
 }
 #features .f-box:hover {
@@ -435,7 +435,7 @@ span {
 
 /* newsletter section styles */
 
-#newsletter {
+#signup {
   background-image: url(images/banner/b14.png);
   background-repeat: no-repeat;
   background-position: 180px;
@@ -446,19 +446,19 @@ span {
   justify-content: space-between;
   padding: 0 75px;
 }
-#newsletter .newsletter-text h3 {
+#signup .signup-text h3 {
   color: white;
   font-size: 30px;
   padding: 0 0 15px 0;
 }
-#newsletter .newsletter-text h5 {
+#signup .signup-text h5 {
   color: rgb(151, 151, 151);
   font-size: 17px;
 }
-#newsletter .newsletter-text h5 span {
+#signup .signup-text h5 span {
   color: rgb(216, 182, 29);
 }
-#newsletter .form input {
+#signup .form input {
   padding: 20px;
   width: 350px;
   height: 56px;
@@ -471,7 +471,7 @@ span {
   margin-right: -4px;
   margin-top: 1px;
 }
-#newsletter .form button {
+#signup .form button {
   margin-left: 0;
   padding: 20px;
   border: none;
@@ -482,32 +482,3 @@ span {
   border-radius: 0 6px 6px 0;
   cursor: pointer;
 }
-
-/* footer section styles */
-/* 
-#footer{
-  display: flex;
-  align-items:flex-start;
-  justify-content: space-between;
-  padding: 75px;
-  background-color: #ececec;
-}
-#footer p, #footer a{
-  color: rgb(109, 109, 109);
-  text-decoration: none;
-}
-#footer a:hover{
-  color:#088178;
-}
-#footer .about a{
-  display: block;
-  padding:8px 0;
-}
-#footer .myaccount a{
-  display: block;
-  padding:8px 0;
-}
-#footer .download img{
-  border: 1px solid #08817969;
-  border-radius: 7px;
-} */
